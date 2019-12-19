@@ -12,7 +12,7 @@ public class TestJpa {
 	
 	public static void main (String[] args) {
 		
-		EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("bibliothéque");
+		EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("banque");
 		EntityManager em =entityManagerFactory.createEntityManager();
 		
 		/*Livre lireLivre = em.find(Livre.class, 2);
